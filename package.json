@@ -1,0 +1,12 @@
+{
+  "name": "codeit-nodejs-mission",
+  "private": true,
+  "version": "0.3.0",
+  "workspaces": [
+    "sprint2"
+  ],
+  "scripts": {
+    "start-sprint2": "node sprint2/main.js",
+    "install:sprint2": "npm install --workspace=sprint2"
+  }
+}
